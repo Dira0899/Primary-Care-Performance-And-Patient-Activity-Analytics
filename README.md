@@ -180,54 +180,42 @@ Validation results are logged to improve auditability and data reliability.
 
 ## Analytics & KPI Layer
 
-The analytics layer is designed to support operational monitoring and executive reporting through KPI-driven dashboards.
+The analytics layer is designed to support operational monitoring and executive reporting through streamlined, KPI-driven dashboards. To prevent "dashboard fatigue," metrics are strictly prioritized and designed for a clean, modern UI.
 
 ### Core KPIs
 
-- Total Appointments
-- Attendance Rate
-- No-show Rate
-- Cancellation Rate
-- Average Wait Time
-- Median Wait Time
-- Average Consultation Duration
-- Workload by Staff Role
-- Appointments by Clinic Location
-- Outcome Distribution
-- Follow-up Rate
-- Month-over-Month Appointment Trends
+- **Volume Metrics:** Total Appointments (featuring embedded Month-over-Month trend indicators)
+- **Negative Outcomes:** No-Show Rate and Cancellation Rate (prioritized to highlight actionable operational gaps)
+- **Efficiency Metrics:** Median Wait Time (utilized over average to account for clinical outliers) and Average Consultation Duration
+- **Operational Groupings:** Workload by Staff Role, Appointments by Clinic Location, and Outcome Distribution
+- **Care Continuity:** Follow-up Rate
 
-These metrics are designed to support both operational efficiency analysis and service quality monitoring.
+These metrics are structured to support both operational efficiency analysis and service quality monitoring without visually overwhelming the end-user.
 
 ---
 
 ## Dashboard Overview
 
-The Power BI dashboard layer is designed to provide interactive operational and executive-level reporting.
+The Power BI dashboard layer is currently in development. It is designed to provide interactive operational and executive-level reporting using a modern, lightweight SaaS aesthetic. To maximize rendering speed, the structural layout (wireframes, containers, and UI elements) is being built in Figma as a static background.
+
+To ensure a clear data narrative and prevent "dashboard fatigue," the final product is consolidated into a highly focused two-page layout.
 
 ### Planned Dashboard Pages
 
-#### Executive Overview
-- Appointment volume trends
-- KPI summary
-- Attendance and cancellation monitoring
+#### 1. Volume & Outcomes (Executive View)
+Designed to provide leadership with an immediate understanding of patient throughput and status.
+- **KPI Summary:** Total Appointments, No-Show Rate, Cancellation Rate, and Follow-up Rate.
+- **Appointment Trends:** Volume analysis over time, dynamically sliced by completion and cancellation statuses.
+- **Outcome Distribution:** Visual breakdown of appointment outcomes.
+- **Patient Demographics:** A detailed, bottom-anchored matrix for granular drill-down capabilities.
 
-#### Appointment Status & Outcomes
-- Outcome distribution
-- Follow-up analysis
-- No-show trends
+#### 2. Efficiency & Workload (Operational View)
+Designed to help clinic managers identify bottlenecks and balance staff utilization.
+- **Wait Time Analysis:** Median wait times mapping out clinical service bottlenecks.
+- **Consultation Tracking:** Duration metrics evaluated against specific staff roles.
+- **Clinic & Staff Performance:** Workload comparison and staff utilization across different clinic locations.
 
-#### Wait Time & Service Efficiency
-- Wait time analysis
-- Consultation duration tracking
-- Service bottleneck identification
-
-#### Clinic & Staff Performance
-- Workload comparison by clinic
-- Staff utilization analysis
-- Operational efficiency monitoring
-
----
+--- 
 
 ## Business Impact
 
