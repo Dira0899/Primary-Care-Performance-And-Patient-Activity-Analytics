@@ -207,7 +207,8 @@ Designed to provide leadership with an immediate understanding of patient throug
 - **KPI Summary:** Total Appointments, No-Show Rate, Cancellation Rate, and Follow-up Rate.
 - **Appointment Trends:** Volume analysis over time, dynamically sliced by completion and cancellation statuses.
 - **Outcome Distribution:** Visual breakdown of appointment outcomes.
-- **Patient Demographics:** A detailed, bottom-anchored matrix for granular drill-down capabilities.
+
+  ![Executive View](<Dashboard/Dashboard.png>)
 
 #### 2. Efficiency & Workload (Operational View)
 Designed to help clinic managers identify bottlenecks and balance staff utilization.
